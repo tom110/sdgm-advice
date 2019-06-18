@@ -1,0 +1,42 @@
+Arguments: 
+  /opt/node-v12.3.1-linux-x64/bin/node /usr/share/yarn/bin/yarn.js add moment
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/root/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.3.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/usr/local/share/.cache/yarn/v4/npm-ansi-regex-2.1.1-c3b33ab5ee360d86e0e628f0468ae7ef27d654df/node_modules/ansi-regex/index.js' -> '/root/sdgm-advice/node_modules/babel-code-frame/node_modules/ansi-regex/index.js'
+
+npm manifest: 
+  {
+    "name": "sdgm-advice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "umi dev",
+      "build": "umi build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "umi": "^2.7.6",
+      "umi-plugin-react": "^1.8.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

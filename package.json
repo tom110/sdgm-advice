@@ -1,0 +1,22 @@
+{
+  "name": "sdgm-advice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "umi": "^2.7.6",
+    "umi-plugin-react": "^1.8.4"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.25",
+    "react-moment": "^0.9.2"
+  }
+}
